@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<root>
+  <include path="openurls.xml" />
+  <include path="apps.xml" />
+
+
+  <item>
+    <name>takada-s private definitions</name>
+
+    <item>
+      <name>Muhenkan-Ctrl-FBPN cursors</name>
+
+      <item>
+        <name>Ctrl-Muhenkan-F: RIGHT</name>
+        <identifier>takada-s.ctrl-muhenkan.cursor.f</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::F, ModifierFlag::EXTRA1 | ModifierFlag::CONTROL_L,
+          KeyCode::CURSOR_RIGHT
+        </autogen>
+      </item>
+
+      <item>
+        <name>Ctrl-Muhenkan-B: LEFT</name>
+        <identifier>takada-s.ctrl-muhenkan.cursor.b</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::B, ModifierFlag::EXTRA1 | ModifierFlag::CONTROL_L,
+          KeyCode::CURSOR_LEFT
+        </autogen>
+      </item>
+
+      <item>
+        <name>Ctrl-Muhenkan-N: DOWN</name>
+        <identifier>takada-s.ctrl-muhenkan.cursor.n</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::N, ModifierFlag::EXTRA1 | ModifierFlag::CONTROL_L,
+          KeyCode::CURSOR_DOWN
+        </autogen>
+      </item>
+
+      <item>
+        <name>Ctrl-Muhenkan-P: UP</name>
+        <identifier>takada-s.ctrl-muhenkan.cursor.p</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::P, ModifierFlag::EXTRA1 | ModifierFlag::CONTROL_L,
+          KeyCode::CURSOR_UP
+        </autogen>
+      </item>
+
+      <item>
+        <name>Ctrl-Muhenkan-A: HOME</name>
+        <identifier>takada-s.ctrl-muhenkan.cursor.a</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::A, ModifierFlag::EXTRA1 | ModifierFlag::CONTROL_L,
+          KeyCode::HOME
+        </autogen>
+      </item>
+
+      <item>
+        <name>Ctrl-Muhenkan-E: END</name>
+        <identifier>takada-s.ctrl-muhenkan.cursor.e</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::E, ModifierFlag::EXTRA1 | ModifierFlag::CONTROL_L,
+          KeyCode::END
+        </autogen>
+      </item>
+
+
+
+    </item>
+
+    <include path="muhenkan.xml" />
+    <include path="henkan.xml" />
+
+
+    <!--<name>Audio Control with Muhenkan</name>-->
+    <item>
+      <name>Audio Control with Muhenkan</name>
+
+      <item>
+        <name>PrevTrack by MUHENKAN + PrintScreen</name>
+        <identifier>takada-s.muhenkan.hotkeys.printscreen</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::PC_PRINTSCREEN, ModifierFlag::EXTRA1,
+          ConsumerKeyCode::MUSIC_PREV
+        </autogen>
+      </item>
+      <item>
+        <name>Play/Stop by MUHENKAN + ScrollLock</name>
+        <identifier>takada-s.muhenkan.hotkeys.scrolllock</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::PC_SCROLLLOCK, ModifierFlag::EXTRA1,
+          ConsumerKeyCode::MUSIC_PLAY
+        </autogen>
+      </item>
+      <item>
+        <name>NextTrack by MUHENKAN + Pause</name>
+        <identifier>takada-s.muhenkan.hotkeys.pause</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::PC_PAUSE, ModifierFlag::EXTRA1,
+          ConsumerKeyCode::MUSIC_NEXT
+        </autogen>
+      </item>
+
+      <item>
+        <name>Volume UP by MUHENKAN + PageUP</name>
+        <identifier>takada-s.muhenkan.hotkeys.volup</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::PAGEUP, ModifierFlag::EXTRA1,
+          ConsumerKeyCode::VOLUME_UP
+        </autogen>
+      </item>
+
+      <item>
+        <name>Volume DOWN by MUHENKAN + PageDOWN</name>
+        <identifier>takada-s.muhenkan.hotkeys.voldown</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::PAGEDOWN, ModifierFlag::EXTRA1,
+          ConsumerKeyCode::VOLUME_DOWN
+        </autogen>
+      </item>
+
+    </item>
+
+    <!--<name>Spaces Switching</name>-->
+    <item>
+      <name>Spaces Switching</name>
+
+      <item>
+        <name>Right Ctrl-Shift Allows to switching Spaces</name>
+        <identifier>takada-s.rightctrlshift_to_switch_spaces</identifier>
+        <appendix>(Control_R+Shift_R+Left  to Switch Left)</appendix>
+        <appendix>(Control_R+Shift_R+Right to Switch Right)</appendix>
+        <autogen>
+          --KeyToKey--
+          KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_R | ModifierFlag::SHIFT_R,
+          KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+          --KeyToKey--
+          KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_R | ModifierFlag::SHIFT_R,
+          KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L
+        </autogen>
+      </item>
+
+      <item>
+        <identifier>takada-s.appkey_to_switch_spaces</identifier>
+        <name>Application Key for switching Spaces</name>
+        <appendix>(Alt_R     + APPKEY to Switch Left)</appendix>
+        <appendix>(Control_R + APPKEY to Switch Right)</appendix>
+        <autogen>
+          --KeyToKey--
+          KeyCode::PC_APPLICATION, ModifierFlag::OPTION_R,
+          KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+          --KeyToKey--
+          KeyCode::PC_APPLICATION, ModifierFlag::CONTROL_R,
+          KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L
+        </autogen>
+      </item>
+
+    </item>
+
+    <!--<name>Copy and Paste</name>-->
+    <item>
+      <name>Copy and Paste</name>
+
+      <item>
+        <name>MY Use PC Style Copy/Paste (C-c/C-v/C-x)</name>
+        <appendix>(Control+C to Command_L+C)</appendix>
+        <appendix>(Control+V to Command_L+V)</appendix>
+        <appendix>(Control+X to Command_L+X)</appendix>
+        <appendix>(Except in Terminal, VM, RDC, Emacs, X11, Eclipse, RubyMine, ScreenSharing)</appendix>
+        <identifier>private.remap.copy_paste_winstyle_no_term_and_rubymine</identifier>
+        <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, RUBYMINE, VNC</not>
+        <autogen>--KeyToKey-- KeyCode::C, VK_CONTROL, KeyCode::C, ModifierFlag::COMMAND_L</autogen>
+        <autogen>--KeyToKey-- KeyCode::V, VK_CONTROL, KeyCode::V, ModifierFlag::COMMAND_L</autogen>
+        <autogen>--KeyToKey-- KeyCode::X, VK_CONTROL, KeyCode::X, ModifierFlag::COMMAND_L</autogen>
+      </item>
+
+      <item>
+        <name>MY Use PC Style Copy/Paste (Ctrl-Ins / Shift-Ins)</name>
+        <appendix>(Control+Ins to Command_L+C)</appendix>
+        <appendix>(Shift+V     to Command_L+V)</appendix>
+        <appendix>(Except in VM, RDC, X11, Eclipse)</appendix>
+        <identifier>private.remap.copy_paste_winstyle_shift_no_term_and_rubymine</identifier>
+        <not>VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+        <autogen>--KeyToKey-- KeyCode::PC_INSERT, VK_CONTROL, KeyCode::C, ModifierFlag::COMMAND_L</autogen>
+        <autogen>--KeyToKey-- KeyCode::PC_INSERT, VK_SHIFT,   KeyCode::V, ModifierFlag::COMMAND_L</autogen>
+      </item>
+
+    </item>
+
+    <!--<name>Fucking hacking for RubyMine with OPTION MODIFIERS</name>-->
+    <item>
+      <name>Fucking hacking for RubyMine with OPTION MODIFIERS</name>
+
+      <item>
+        <name>Alt-SEMICOLON to Ctrl-Alt-SEMICOLON</name>
+        <identifier>takada-s.alt-semicolon</identifier>
+        <appendix>(Only in RubyMine)</appendix>
+        <only>RUBYMINE</only>
+        <autogen>
+          --KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::OPTION_L,
+          KeyCode::SEMICOLON, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+      </item>
+
+      <item>
+        <name>Alt-D to Ctrl-Alt-D</name>
+        <identifier>takada-s.alt-d</identifier>
+        <appendix>(Only in RubyMine)</appendix>
+        <only>RUBYMINE</only>
+        <autogen>
+          --KeyToKey-- KeyCode::D, ModifierFlag::OPTION_L,
+          KeyCode::D, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+      </item>
+
+
+      <item>
+        <name>Alt-W to Ctrl-Alt-W</name>
+        <identifier>takada-s.alt-w</identifier>
+        <appendix>(Only in RubyMine)</appendix>
+        <only>RUBYMINE</only>
+        <autogen>
+          --KeyToKey-- KeyCode::W, ModifierFlag::OPTION_L,
+          KeyCode::W, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+      </item>
+
+
+      <item>
+        <name>Alt-X to Ctrl-Alt-X</name>
+        <identifier>takada-s.alt-x</identifier>
+        <appendix>(Only in RubyMine)</appendix>
+        <only>RUBYMINE</only>
+        <autogen>
+          --KeyToKey-- KeyCode::X, ModifierFlag::OPTION_L,
+          KeyCode::X, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+      </item>
+
+
+      <item>
+        <name>Alt-% to Ctrl-Alt-%</name>
+        <identifier>takada-s.alt-pct</identifier>
+        <appendix>(Only in RubyMine)</appendix>
+        <only>RUBYMINE</only>
+        <autogen>
+          --KeyToKey-- KeyCode::KEY_5, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L,
+          KeyCode::KEY_5, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
+        </autogen>
+      </item>
+    </item>
+
+
+    <!--<name>Miscellaneous Desktop Operations</name>-->
+    <item>
+      <name>Miscellaneous Desktop Operations</name>
+
+      <item>
+        <name>Screen Lock by Windows-Alt-L</name>
+        <identifier>takada-s.screen_lock</identifier>
+        <autogen>
+          --KeyToKey-- KeyCode::L, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L,
+          KeyCode::VK_OPEN_URL_APP_ScreenSaverEngine_custom
+        </autogen>
+      </item>
+
+
+      <item>
+        <name>Leaving Sequence by Ctrl-Windows-Alt-UNDERSCORE</name>
+        <identifier>takada-s.leaving</identifier>
+        <autogen>
+          --KeyToKey-- KeyCode::JIS_UNDERSCORE, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::CONTROL_L,
+          KeyCode::VK_OPEN_URL_APP_leave
+        </autogen>
+      </item>
+
+    </item>
+
+
+    <!--<name>OmniFocus</name>-->
+    <item>
+      <name>OmniFocus</name>
+
+      <item>
+        <name>Quick Shortcut for OmniFocus Quick Add by Muhenkan+SPC</name>
+        <identifier>takada-s.muhenkan.hotkeys.SPC</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::SPACE, ModifierFlag::EXTRA1,
+          KeyCode::SPACE, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L
+        </autogen>
+      </item>
+
+      <item>
+        <name>Quick Shortcut for OmniFocus Quick Add ALSO BY Application-key</name>
+        <identifier>takada-s.muhenkan.hotkeys.appkey</identifier>
+        <autogen>
+          __KeyToKey__
+          KeyCode::PC_APPLICATION,
+          KeyCode::SPACE, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L
+        </autogen>
+      </item>
+
+    </item>
+
+
+    <!--<name>My Windows-like Firefox shortcut keys</name>-->
+    <item>
+      <name>My Windows-like Firefox shortcut keys</name>
+
+      <item>
+        <name>Ctrl-W to close tab</name>
+        <identifier>takada-s.firefox.close_tab</identifier>
+        <only>FIREFOX</only>
+        <autogen>
+          --KeyToKey-- KeyCode::W, ModifierFlag::CONTROL_L,
+          KeyCode::W, ModifierFlag::COMMAND_L
+        </autogen>
+      </item>
+
+      <item>
+        <name>Ctrl-T to new tab</name>
+        <identifier>takada-s.firefox.new_tab</identifier>
+        <only>FIREFOX</only>
+        <autogen>
+          --KeyToKey-- KeyCode::T, ModifierFlag::CONTROL_L,
+          KeyCode::T, ModifierFlag::COMMAND_L
+        </autogen>
+      </item>
+
+      <item>
+        <name>Alt-Shift-V to append searchbox</name>
+        <identifier>takada-s.firefox.append_searchbox</identifier>
+        <only>FIREFOX</only>
+        <autogen>
+          --KeyToKey-- KeyCode::V, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L,
+          KeyCode::C, ModifierFlag::COMMAND_L,
+          KeyCode::K, ModifierFlag::COMMAND_L,
+          KeyCode::E, ModifierFlag::CONTROL_L,
+          KeyCode::SPACE,
+          KeyCode::V, ModifierFlag::COMMAND_L
+        </autogen>
+      </item>
+
+    </item>
+
+
+    <!--<name>My Windows-like Chrome shortcut keys</name>-->
+    <item>
+      <name>My Windows-like Chrome shortcut keys</name>
+
+      <item>
+        <name>Ctrl-W to close tab</name>
+        <identifier>takada-s.chrome.close_tab</identifier>
+        <only>GOOGLE_CHROME</only>
+        <autogen>
+          --KeyToKey-- KeyCode::W, ModifierFlag::CONTROL_L,
+          KeyCode::W, ModifierFlag::COMMAND_L
+        </autogen>
+      </item>
+
+      <item>
+        <name>Ctrl-T to new tab</name>
+        <identifier>takada-s.chrome.new_tab</identifier>
+        <only>GOOGLE_CHROME</only>
+        <autogen>
+          --KeyToKey-- KeyCode::T, ModifierFlag::CONTROL_L,
+          KeyCode::T, ModifierFlag::COMMAND_L
+        </autogen>
+      </item>
+
+    </item>
+
+  </item>
+
+  <include path="g700s.xml" />
+
+</root>

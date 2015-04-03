@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<root>
+  <appdef>
+    <appname>RUBYMINE</appname>
+    <equal>com.jetbrains.rubymine</equal>
+  </appdef>
+
+  <appdef>
+    <appname>VNC</appname>
+    <equal>com.apple.ScreenSharing</equal>
+  </appdef>
+</root>

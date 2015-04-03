@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<root>
+
+  <item>
+    <name>Extra Mouse Button Click Ignore</name>
+      <item>
+        <name>Button 4</name>
+        <identifier>extra_mouse_button_click_ignore.button_4</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON4, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 5</name>
+        <identifier>extra_mouse_button_click_ignore.button_5</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON5, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 6</name>
+        <identifier>extra_mouse_button_click_ignore.button_6</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON6, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 7</name>
+        <identifier>extra_mouse_button_click_ignore.button_7</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON7, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 8</name>
+        <identifier>extra_mouse_button_click_ignore.button_8</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON8, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 9</name>
+        <identifier>extra_mouse_button_click_ignore.button_9</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON9, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 10</name>
+        <identifier>extra_mouse_button_click_ignore.button_10</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON10, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 11</name>
+        <identifier>extra_mouse_button_click_ignore.button_11</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON11, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 12</name>
+        <identifier>extra_mouse_button_click_ignore.button_12</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON12, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 13</name>
+        <identifier>extra_mouse_button_click_ignore.button_13</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON13, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 14</name>
+        <identifier>extra_mouse_button_click_ignore.button_14</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON14, PointingButton::NONE</autogen>
+      </item>
+      <item>
+        <name>Button 15</name>
+        <identifier>extra_mouse_button_click_ignore.button_15</identifier>
+        <autogen>__PointingButtonToPointingButton__ PointingButton::BUTTON15, PointingButton::NONE</autogen>
+      </item>
+  </item>
+</root>

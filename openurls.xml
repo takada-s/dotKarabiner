@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<root>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_ScreenSaverEngine_custom</name>
+    <url type="shell">
+      <![CDATA[ sleep 0.5; open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app ]]>
+    </url>
+  </vkopenurldef>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_leave</name>
+    <url type="shell">
+      <![CDATA[ open /Applications/leave.app ]]>
+    </url>
+  </vkopenurldef>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_SHELL_activate_by_h</name>
+    <url type="file">/Applications/HipChat.app</url>
+  </vkopenurldef>
+
+
+</root>

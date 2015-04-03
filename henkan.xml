@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<root>
+
+  <item>
+    <name>Henkan key Shortcuts</name>
+
+    <!--WASD-->
+    <item>
+      <name>Henkan-WASD cursors</name>
+
+      <item>
+        <name>Henkan-W: UP</name>
+        <identifier>takada-s.henkan.cursor.w</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::W, ModifierFlag::EXTRA2,
+          KeyCode::CURSOR_UP
+        </autogen>
+      </item>
+
+      <item>
+        <name>Henkan-A: LEFT</name>
+        <identifier>takada-s.henkan.cursor.a</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::A, ModifierFlag::EXTRA2,
+          KeyCode::CURSOR_LEFT
+        </autogen>
+      </item>
+
+      <item>
+        <name>Henkan-S: DOWN</name>
+        <identifier>takada-s.henkan.cursor.s</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::S, ModifierFlag::EXTRA2,
+          KeyCode::CURSOR_DOWN
+        </autogen>
+      </item>
+
+      <item>
+        <name>Henkan-D: RIGHT</name>
+        <identifier>takada-s.henkan.cursor.d</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::D, ModifierFlag::EXTRA2,
+          KeyCode::CURSOR_RIGHT
+        </autogen>
+      </item>
+
+    </item>
+    <!--WASD-->
+
+
+    <!--HJKL-->
+    <item>
+      <name>Henkan-HJKL cursors</name>
+
+      <item>
+        <name>Henkan-K: UP</name>
+        <identifier>takada-s.henkan.cursor.k</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::K, ModifierFlag::EXTRA2,
+          KeyCode::CURSOR_UP
+        </autogen>
+      </item>
+
+      <item>
+        <name>Henkan-H: LEFT</name>
+        <identifier>takada-s.henkan.cursor.h</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::H, ModifierFlag::EXTRA2,
+          KeyCode::CURSOR_LEFT
+        </autogen>
+      </item>
+
+      <item>
+        <name>Henkan-J: DOWN</name>
+        <identifier>takada-s.henkan.cursor.j</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::J, ModifierFlag::EXTRA2,
+          KeyCode::CURSOR_DOWN
+        </autogen>
+      </item>
+
+      <item>
+        <name>Henkan-L: RIGHT</name>
+        <identifier>takada-s.henkan.cursor.l</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+        <autogen>
+          __KeyToKey__
+          KeyCode::L, ModifierFlag::EXTRA2,
+          KeyCode::CURSOR_RIGHT
+        </autogen>
+      </item>
+
+    </item>
+
+
+  </item>
+</root>

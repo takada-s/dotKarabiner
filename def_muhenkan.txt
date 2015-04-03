@@ -1,0 +1,29 @@
+# key   Target application to be activated (trailing with "!" means exceptional apps)
+a	Activity Monitor
+b	Thunderbird
+c	Limechat
+d	Dash
+e	Emacs
+f	Firefox
+g	Google Chrome
+h	HipChat!
+i	iTunes
+# j
+# k
+# l
+m	Reminders
+# n
+# o
+p	Preview
+q	OmniFocus
+r	RubyMine
+s	Calendar
+t	iTerm
+# u
+v	Evernote
+# w
+# x
+# y
+# z
+##########
+
